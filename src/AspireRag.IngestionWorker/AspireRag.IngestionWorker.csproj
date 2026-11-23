@@ -1,0 +1,6 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+  <ItemGroup>
+    <ProjectReference Include="..\AspireRag.Infrastructure\AspireRag.Infrastructure.csproj" />
+    <ProjectReference Include="..\AspireRag.ServiceDefaults\AspireRag.ServiceDefaults.csproj" />
+  </ItemGroup>
+</Project>

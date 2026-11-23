@@ -1,0 +1,5 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\AspireRag.Application\AspireRag.Application.csproj" />
+  </ItemGroup>
+</Project>

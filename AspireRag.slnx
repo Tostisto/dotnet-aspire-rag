@@ -1,0 +1,18 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/AspireRag.Api/AspireRag.Api.csproj" />
+    <Project Path="src/AspireRag.AppHost/AspireRag.AppHost.csproj" />
+    <Project Path="src/AspireRag.Application/AspireRag.Application.csproj" />
+    <Project Path="src/AspireRag.Domain/AspireRag.Domain.csproj" />
+    <Project Path="src/AspireRag.Infrastructure/AspireRag.Infrastructure.csproj" />
+    <Project Path="src/AspireRag.IngestionWorker/AspireRag.IngestionWorker.csproj" />
+    <Project Path="src/AspireRag.ServiceDefaults/AspireRag.ServiceDefaults.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/AspireRag.Application.Tests/AspireRag.Application.Tests.csproj" />
+    <Project Path="tests/AspireRag.ArchitectureTests/AspireRag.ArchitectureTests.csproj" />
+    <Project Path="tests/AspireRag.Domain.Tests/AspireRag.Domain.Tests.csproj" />
+    <Project Path="tests/AspireRag.Infrastructure.Tests/AspireRag.Infrastructure.Tests.csproj" />
+    <Project Path="tests/AspireRag.IntegrationTests/AspireRag.IntegrationTests.csproj" />
+  </Folder>
+</Solution>

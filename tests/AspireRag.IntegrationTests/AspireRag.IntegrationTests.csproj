@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\AspireRag.AppHost\AspireRag.AppHost.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting.Testing" />
+    <PackageReference Include="Microsoft.Extensions.AI.Evaluation.Quality" />
+    <PackageReference Include="OllamaSharp" />
+    <PackageReference Include="Microsoft.Extensions.Http.Resilience" />
+  </ItemGroup>
+  <ItemGroup>
+    <Using Include="System.Net" />
+    <Using Include="Aspire.Hosting" />
+    <Using Include="Aspire.Hosting.ApplicationModel" />
+    <Using Include="Aspire.Hosting.Testing" />
+    <Using Include="Microsoft.Extensions.DependencyInjection" />
+  </ItemGroup>
+</Project>

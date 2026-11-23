@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <UserSecretsId>3094a1ef-541a-4415-a944-84e39e41d49d</UserSecretsId>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting.AppHost" />
+    <PackageReference Include="Aspire.Hosting.Dotnet" />
+    <PackageReference Include="Aspire.Hosting.Qdrant" />
+    <PackageReference Include="CommunityToolkit.Aspire.Hosting.Ollama" />
+  </ItemGroup>
+</Project>

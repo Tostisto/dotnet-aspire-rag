@@ -1,0 +1,39 @@
+@api = http://localhost:5279
+
+GET {{api}}/api/search?q=Do we indent with tabs or spaces?&top=3
+
+###
+POST {{api}}/api/ask
+Content-Type: application/json
+
+{ "question": "Do we indent code with tabs or spaces?", "mode": "Always" }
+
+###
+POST {{api}}/api/ask
+Content-Type: application/json
+
+{ "question": "Do we indent code with tabs or spaces?", "mode": "OnDemand" }
+
+###
+POST {{api}}/api/ask
+Content-Type: application/json
+
+{ "question": "How do I build and run the code from source?" }
+
+###
+POST {{api}}/api/ask
+Content-Type: application/json
+
+{ "question": "Hi there, who are you?", "mode": "OnDemand" }
+
+###
+POST {{api}}/api/ask
+Content-Type: application/json
+
+{ "question": "What is the capital of France?" }
+
+###
+POST {{api}}/api/ask
+Content-Type: application/json
+
+{ "question": "" }

@@ -1,0 +1,4 @@
+[submodule "refs/vscode.wiki"]
+	path = refs/vscode.wiki
+	url = https://github.com/microsoft/vscode.wiki.git
+	shallow = true
